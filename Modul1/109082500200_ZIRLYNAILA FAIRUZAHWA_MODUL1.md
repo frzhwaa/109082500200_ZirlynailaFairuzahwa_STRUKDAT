@@ -58,7 +58,7 @@ int main(){
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/frzhwaa/109082500200_ZirlynailaFairuzahwa_STRUKDAT/blob/main/modul1/output/soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/frzhwaa/109082500200_ZirlynailaFairuzahwa_STRUKDAT/blob/main/Modul1/output/soal1.png)
 
 Program tersebut meminta pengguna untuk menginputkan dua buah bilangan bertipe float. Setelah kedua bilangan dimasukkan, program akan melakukan empat operasi aritmatika, yaitu penjumlahan, pengurangan, perkalian, dan pembagian. Nilai yang diinputkan disimpan ke dalam variabel bil1 dan bil2. Selanjutnya, program menghitung hasil dari setiap operasi menggunakan kedua variabel tersebut, kemudian menampilkan hasilnya ke layar menggunakan cout.
 Sebagai contoh, ketika saya menginputkan bilangan 10 dan 8, program akan melakukan operasi penjumlahan 10 + 8 sehingga menghasilkan 18, pengurangan 10 - 8 menghasilkan 2, perkalian 10 * 8 menghasilkan 80, dan pembagian 10 / 8 menghasilkan 1.25. Setelah semua operasi selesai dilakukan, program akan menampilkan masing-masing hasil dengan keterangan "Hasil penjumlahan", "Hasil pengurangan", "Hasil perkalian", dan "Hasil pembagian".
@@ -107,7 +107,7 @@ int main(){
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/frzhwaa/109082500200_ZirlynailaFairuzahwa_STRUKDAT/blob/main/modul1/output/soal2.png)
+![Screenshot Output Unguided 2_1](https://github.com/frzhwaa/109082500200_ZirlynailaFairuzahwa_STRUKDAT/blob/main/Modul1/output/soal2.png)
 
 Program tersebut meminta pengguna untuk menginputkan sebuah bilangan bulat dari 0 sampai 100. Bilangan yang dimasukkan disimpan ke dalam variabel angka, kemudian program menggunakan array satuan yang berisi nama-nama bilangan dari nol sampai sembilan dalam bentuk string. Selanjutnya, program menggunakan percabangan if,  else if, dan else untuk menentukan penyebutan angka yang sesuai. Untuk angka 0 sampai 9, program langsung mengambil nama angka dari array satuan. Angka 10 dan 11 memiliki penyebutan khusus, yaitu "sepuluh" dan "sebelas", sedangkan angka 12 sampai 19 menggunakan nama angka satuannya ditambah dengan kata "belas". Untuk angka 20 sampai 99, program memisahkan angka puluhan dan satuan menggunakan operasi pembagian (/) dan modulus (%), kemudian menampilkan nama puluhan diikuti kata "puluh" dan nama satuannya jika tidak bernilai nol. Jika angka yang dimasukkan adalah 100, program menampilkan "seratus". Apabila angka yang dimasukkan berada di luar rentang 0 sampai 100, program akan menampilkan pesan bahwa angka harus berada pada rentang tersebut.
 Sebagai contoh, ketika saya menginputkan angka 64, program akan menghitung nilai puluhan dengan 64 / 10 sehingga diperoleh 6, sedangkan nilai satuan dengan 64 % 10 sehingga diperoleh 4. Kemudian program mengambil satuan[6] yaitu "enam" dan satuan[4] yaitu "empat", sehingga output yang ditampilkan adalah "dua puluh empat". Sebagai contoh lainnya, jika saya menginputkan angka 9, program akan langsung menampilkan "sembilan", jika menginputkan angka 100, program akan menampilkan "seratus", sedangkan jika menginputkan 200, program akan menampilkan "Angka harus 0 sampai 100".
@@ -149,7 +149,7 @@ int main(){
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/frzhwaa/109082500200_ZirlynailaFairuzahwa_STRUKDAT/blob/main/modul1/output/soal3.png)
+![Screenshot Output Unguided 3_1](https://github.com/frzhwaa/109082500200_ZirlynailaFairuzahwa_STRUKDAT/blob/main/Modul1/output/soal3.png)
 
 Program tersebut meminta pengguna untuk menginputkan sebuah bilangan bulat n. Setelah nilai n dimasukkan, program menggunakan perulangan for untuk membuat pola angka dan tanda * secara bertahap dari baris pertama hingga baris terakhir. Perulangan pertama menggunakan variabel i yang dimulai dari n dan terus berkurang sampai 0, sehingga menentukan jumlah angka yang ditampilkan pada setiap baris. Selanjutnya, perulangan s digunakan untuk memberikan spasi di awal baris agar pola bergeser ke kanan secara bertahap. Jika nilai i sama dengan 0, program hanya menampilkan tanda *. Jika nilai i masih lebih dari 0, program menampilkan angka dari i sampai 1, kemudian tanda *, lalu angka dari 1 sampai i. Setelah setiap baris selesai diproses, program menggunakan endl untuk berpindah ke baris berikutnya.
 Sebagai contoh, ketika saya menginputkan angka 3, pada baris pertama nilai i adalah 3, sehingga program menampilkan angka dari 3 sampai 1, kemudian tanda *, lalu angka dari 1 sampai 3, yaitu 3 2 1 * 1 2 3. Pada baris berikutnya nilai i berkurang menjadi 2, sehingga jumlah angka yang ditampilkan juga berkurang dan posisi pola bergeser ke kanan. Proses tersebut terus dilakukan sampai nilai i menjadi 0. Pada saat i bernilai 0, program hanya menampilkan tanda *. Dengan demikian, program menghasilkan pola yang semakin mengecil dari atas ke bawah dan tanda * berada di bagian tengah pola.
